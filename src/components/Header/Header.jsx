@@ -5,16 +5,16 @@ import { FaUserCircle, FaBitcoin, FaChartLine, FaExchangeAlt, FaHandHoldingUsd, 
 import binanceLogo from '../../assets/logo/images/brand.png';
 
 const navigation = [
-  { name: 'Купить Криптовалюту', href: '#', icon: FaBitcoin },
-  { name: 'Рынки', href: '#', icon: FaChartLine },
-  { name: 'Торговля', href: '#', icon: FaExchangeAlt },
-  { name: 'Фьючерсы', href: '#', icon: FaHandHoldingUsd },
+  { name: 'Mua Tiền Ảo', href: '#', icon: FaBitcoin },
+  { name: 'Thị Trường', href: '#', icon: FaChartLine },
+  { name: 'Giao Dịch', href: '#', icon: FaExchangeAlt },
+  { name: 'Futures', href: '#', icon: FaHandHoldingUsd },
   { name: 'Earn', href: '#', icon: FaBitcoin },
   { name: 'Square', href: '#', icon: FaSquare },
-  { name: 'Подробнее', href: '#', icon: FaInfoCircle },
-  { name: 'Тема', href: '#', icon: FaThemeisle },
-  { name: 'Помощь в чате 24/7', href: 'http://192.168.0.103:3003/', icon: FaComments },
-  { name: 'Загрузить', href: '#', icon: FaDownload },
+  { name: 'Thông Tin', href: '#', icon: FaInfoCircle },
+  { name: 'Chủ Đề', href: '#', icon: FaThemeisle },
+  { name: 'Hỗ Trợ 24/7', href: 'http://192.168.0.103:3003/', icon: FaComments },
+  { name: 'Tải Về', href: '#', icon: FaDownload },
 ];
 
 export default function Header() {
@@ -31,14 +31,14 @@ export default function Header() {
         </div>
         <div className="flex lg:hidden items-center">
           <span className="ml-2 text-yellow-500 text-xl font-bold mx-16">BINANCE</span>
-          <button className="bg-yellow-500 text-black py-1 px-3 mx-0 rounded font-regular">Пополнение</button>
+          <button className="bg-yellow-500 text-black py-1 px-3 mx-0 rounded font-regular">Nạp Tiền</button>
           <FaUserCircle className='w-6 h-6 mx-2 text-gray-300' />
           <button
             type="button"
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400"
             onClick={() => setMobileMenuOpen(true)}
           >
-            <span className="sr-only">Open main menu</span>
+            <span className="sr-only">Mở menu chính</span>
             <FiMenu className="h-7 w-7" aria-hidden="true" />
           </button>
         </div>
@@ -52,7 +52,7 @@ export default function Header() {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" className="text-sm font-semibold leading-6 text-white">
-            Log in <span aria-hidden="true">&rarr;</span>
+            Đăng nhập <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
       </nav>
@@ -69,14 +69,14 @@ export default function Header() {
               />
             </a>
             <span className="ml-2 text-yellow-500 text-xl font-bold mx-16">BINANCE</span>
-                <button className="bg-yellow-500 text-black py-1 px-3 mx-0 rounded font-regular">Пополнение</button>
+                <button className="bg-yellow-500 text-black py-1 px-3 mx-0 rounded font-regular">Nạp Tiền</button>
                 <FaUserCircle className='w-6 h-6 mx-2 text-gray-300' />
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-400"
               onClick={() => setMobileMenuOpen(false)}
             >
-              <span className="sr-only">Close menu</span>
+              <span className="sr-only">Đóng menu</span>
               <FiX className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
@@ -85,7 +85,7 @@ export default function Header() {
               <input
                 type="text"
                 className="w-full rounded-md bg-gray-800 text-white placeholder-gray-400 p-2 focus:outline-none"
-                placeholder="Монета, функция, анонс"
+                placeholder="Đồng tiền, chức năng, thông báo"
               />
               <div className="-my-6 divide-y divide-gray-500/25">
                 <div className="space-y-2 py-6">
@@ -105,7 +105,7 @@ export default function Header() {
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800"
                   >
-                    Log in
+                    Đăng nhập
                   </a> */}
                 </div>
               </div>
