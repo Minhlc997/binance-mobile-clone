@@ -9,7 +9,7 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/funofbfmv/binance-mobile-clone.git
+   git clone https://github.com/minhlc997/binance-mobile-clone.git
 Navigate to the project directory:
 
 2. cd binance-mobile-clone
